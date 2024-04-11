@@ -10547,3 +10547,73 @@ skills["AzmeriGolemRotateZap"] = {
 		[1] = { 0.80000001192093, 1.2000000476837, critChance = 5, levelRequirement = 0, statInterpolation = { 3, 3, }, },
 	},
 }
+-- -- Rattling Condemned
+skills["MeleeRattlingCondemned"] = {
+	name = "Default Attack",
+	hidden = true,
+	color = 4,
+	baseEffectiveness = 0,
+	incrementalEffectiveness = 0,
+	description = "Strike your foes down with a powerful blow.",
+	skillTypes = {
+		[SkillType.Attack] = true,
+		[SkillType.RangedAttack] = true,
+		[SkillType.MirageArcherCanUse] = true,
+		[SkillType.Projectile] = true,
+		[SkillType.MeleeSingleTarget] = true,
+		[SkillType.Multistrikeable] = true,
+		[SkillType.Melee] = true,
+		[SkillType.ProjectilesFromUser] = true,
+	},
+	statDescriptionScope = "skill_stat_descriptions",
+	castTime = 1,
+	baseFlags = {
+		attack = true,
+		melee = true,
+		projectile = true,
+	},
+	baseMods = {
+	},
+	qualityStats = {
+	},
+	stats = {
+		"skill_can_fire_arrows",
+		"skill_can_fire_wand_projectiles",
+	},
+	levels = {
+		[1] = {levelRequirement = 1, statInterpolation = {},  cost = { }, },
+	},
+}
+skills["CageSpiderCyclone"] = {
+	name = "Cyclone",
+	hidden = true,
+	color = "2",
+	baseEffectiveness = 0,
+	incrementalEffectiveness = 0,
+	description = "Damage enemies around you, then perform a spinning series of attacks as you travel to a target location. Cannot be supported by Ruthless or Multistrike.",
+	skillTypes = {
+		[SkillType.Attack] = true,
+		[SkillType.Area] = true,
+		[SkillType.Melee] = true,
+		[SkillType.Movement] = true,
+	},
+	statDescriptionScope = "skill_stat_descriptions",
+	castTime = 1,
+	baseFlags = {
+		attack = true,
+		area = true,
+		melee = true,
+	},
+	baseMods = {
+	},
+	qualityStats = {
+	},
+	stats = {
+		"active_skill_attack_speed_+%_final",
+		"active_skill_damage_+%_final",
+		"is_area_damage",
+	},
+	levels = {
+		[1] = {150, -60, levelRequirement = 2, statInterpolation = {},  cost = { }, },
+	},
+}

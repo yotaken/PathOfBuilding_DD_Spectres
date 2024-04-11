@@ -2167,3 +2167,11 @@ skills["DarkMarionetteExplodePerfect"] = {
 #skill AzmeriGolemRotateZap Spinning Zap
 #flags spell area hit
 #mods
+
+#skill CageSpiderCyclone Cyclone
+#flags attack melee area
+#mods
+
+#skill MeleeRattlingCondemned
+#flags attack melee projectile
+#mods

@@ -6776,3 +6776,23 @@ minions["Metadata/Monsters/LeagueAzmeri/SpecialCorpses/SynthesisGolemHigh"] = {
 		mod("PlayerModifier", "LIST", { mod = mod("Duration", "INC", 20, 0, 0, { type = "GlobalEffect", effectType = "Buff", effectName = "HalfRememberedGoliath", unscaleable = true })}),
 	},
 }
+-- Rattling Condemned
+minions["Metadata/Monster/CageSpider/CageSpiderSpectre"] = {
+	name = "Rattling Condemned",
+	life = 3.52,
+	fireResist = 0,
+	coldResist = 0,
+	lightningResist = 40,
+	chaosResist = 0,
+	damage = 1.5,
+	damageSpread = 0.2,
+	attackTime = 1.755,
+	attackRange = 12,
+	accuracy = 1,
+	skillList = {
+		"MeleeRattlingCondemned",
+		"CageSpiderCyclone",
+	},
+	modList = {
+	},
+}
