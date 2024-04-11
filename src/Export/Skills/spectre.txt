@@ -2175,3 +2175,15 @@ skills["DarkMarionetteExplodePerfect"] = {
 #skill MeleeRattlingCondemned
 #flags attack melee projectile
 #mods
+
+#skill MeleeGoldStatueLargeFemaleSwordSpectre
+#flags attack melee projectile
+#mods
+
+#skill MeleeGoldStatueLargeMaleSwordSpectre
+#flags attack melee projectile
+#mods
+
+#skill MeleeGoldStatueLargeFemaleUnarmedSpectre
+#flags attack melee projectile
+#mods

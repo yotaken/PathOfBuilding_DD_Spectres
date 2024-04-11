@@ -431,3 +431,7 @@ local minions, mod, flag = ...
 #emit
 -- Rattling Condemned
 #spectre Metadata/Monster/CageSpider/CageSpiderSpectre
+-- Auric Colossus
+#spectre Metadata/Monsters/Statue/GoldStatueLargeMaleSwordSpectre
+#spectre Metadata/Monsters/Statue/GoldStatueLargeFemaleSwordSpectre
+#spectre Metadata/Monsters/Statue/GoldStatueLargeFemaleUnarmedSpectre

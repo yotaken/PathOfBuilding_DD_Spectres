@@ -10547,7 +10547,7 @@ skills["AzmeriGolemRotateZap"] = {
 		[1] = { 0.80000001192093, 1.2000000476837, critChance = 5, levelRequirement = 0, statInterpolation = { 3, 3, }, },
 	},
 }
--- -- Rattling Condemned
+-- Rattling Condemned
 skills["MeleeRattlingCondemned"] = {
 	name = "Default Attack",
 	hidden = true,
@@ -10615,5 +10615,114 @@ skills["CageSpiderCyclone"] = {
 	},
 	levels = {
 		[1] = {150, -60, levelRequirement = 2, statInterpolation = {},  cost = { }, },
+	},
+}
+-- Auric Colossus
+skills["MeleeGoldStatueLargeFemaleUnarmedSpectre"] = {
+	name = "Default Attack",
+	hidden = true,
+	color = 4,
+	baseEffectiveness = 0,
+	incrementalEffectiveness = 0,
+	description = "Strike your foes down with a powerful blow.",
+	skillTypes = {
+		[SkillType.Attack] = true,
+		[SkillType.RangedAttack] = true,
+		[SkillType.MirageArcherCanUse] = true,
+		[SkillType.Projectile] = true,
+		[SkillType.MeleeSingleTarget] = true,
+		[SkillType.Multistrikeable] = true,
+		[SkillType.Melee] = true,
+		[SkillType.ProjectilesFromUser] = true,
+	},
+	statDescriptionScope = "skill_stat_descriptions",
+	castTime = 1,
+	baseFlags = {
+		attack = true,
+		melee = true,
+		projectile = true,
+	},
+	baseMods = {
+	},
+	qualityStats = {
+	},
+	stats = {
+		"skill_can_fire_arrows",
+		"skill_can_fire_wand_projectiles",
+	},
+	levels = {
+		[1] = {levelRequirement = 1, statInterpolation = {},  cost = { }, },
+	},
+}
+skills["MeleeGoldStatueLargeFemaleSwordSpectre"] = {
+	name = "Default Attack",
+	hidden = true,
+	color = 4,
+	baseEffectiveness = 0,
+	incrementalEffectiveness = 0,
+	description = "Strike your foes down with a powerful blow.",
+	skillTypes = {
+		[SkillType.Attack] = true,
+		[SkillType.RangedAttack] = true,
+		[SkillType.MirageArcherCanUse] = true,
+		[SkillType.Projectile] = true,
+		[SkillType.MeleeSingleTarget] = true,
+		[SkillType.Multistrikeable] = true,
+		[SkillType.Melee] = true,
+		[SkillType.ProjectilesFromUser] = true,
+	},
+	statDescriptionScope = "skill_stat_descriptions",
+	castTime = 1,
+	baseFlags = {
+		attack = true,
+		melee = true,
+		projectile = true,
+	},
+	baseMods = {
+	},
+	qualityStats = {
+	},
+	stats = {
+		"skill_can_fire_arrows",
+		"skill_can_fire_wand_projectiles",
+	},
+	levels = {
+		[1] = {levelRequirement = 1, statInterpolation = {},  cost = { }, },
+	},
+}
+skills["MeleeGoldStatueLargeMaleSwordSpectre"] = {
+	name = "Default Attack",
+	hidden = true,
+	color = 4,
+	baseEffectiveness = 0,
+	incrementalEffectiveness = 0,
+	description = "Strike your foes down with a powerful blow.",
+	skillTypes = {
+		[SkillType.Attack] = true,
+		[SkillType.RangedAttack] = true,
+		[SkillType.MirageArcherCanUse] = true,
+		[SkillType.Projectile] = true,
+		[SkillType.MeleeSingleTarget] = true,
+		[SkillType.Multistrikeable] = true,
+		[SkillType.Melee] = true,
+		[SkillType.ProjectilesFromUser] = true,
+	},
+	statDescriptionScope = "skill_stat_descriptions",
+	castTime = 1,
+	baseFlags = {
+		attack = true,
+		melee = true,
+		projectile = true,
+	},
+	baseMods = {
+	},
+	qualityStats = {
+	},
+	stats = {
+		"skill_can_fire_arrows",
+		"skill_can_fire_wand_projectiles",
+	},
+	levels = {
+		[1] = {levelRequirement = 1, statInterpolation = {},  cost = { }, },
 	},
 }
