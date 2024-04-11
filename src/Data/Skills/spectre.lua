@@ -10618,7 +10618,8 @@ skills["CageSpiderCyclone"] = {
 	},
 }
 -- Auric Colossus
-skills["MeleeGoldStatueLargeFemaleUnarmedSpectre"] = {
+-- Auric Champion
+skills["MeleeGoldStatueSpectre"] = {
 	name = "Default Attack",
 	hidden = true,
 	color = 4,
@@ -10654,28 +10655,22 @@ skills["MeleeGoldStatueLargeFemaleUnarmedSpectre"] = {
 		[1] = {levelRequirement = 1, statInterpolation = {},  cost = { }, },
 	},
 }
-skills["MeleeGoldStatueLargeFemaleSwordSpectre"] = {
-	name = "Default Attack",
+skills["StatueSpearThrowGold"] = {
+	name = "StatueSpearThrowGold",
 	hidden = true,
 	color = 4,
 	baseEffectiveness = 0,
 	incrementalEffectiveness = 0,
-	description = "Strike your foes down with a powerful blow.",
 	skillTypes = {
 		[SkillType.Attack] = true,
 		[SkillType.RangedAttack] = true,
-		[SkillType.MirageArcherCanUse] = true,
 		[SkillType.Projectile] = true,
-		[SkillType.MeleeSingleTarget] = true,
-		[SkillType.Multistrikeable] = true,
-		[SkillType.Melee] = true,
-		[SkillType.ProjectilesFromUser] = true,
+		[SkillType.ProjectilesNotFromUser] = true,
 	},
 	statDescriptionScope = "skill_stat_descriptions",
 	castTime = 1,
 	baseFlags = {
 		attack = true,
-		melee = true,
 		projectile = true,
 	},
 	baseMods = {
@@ -10683,46 +10678,9 @@ skills["MeleeGoldStatueLargeFemaleSwordSpectre"] = {
 	qualityStats = {
 	},
 	stats = {
-		"skill_can_fire_arrows",
-		"skill_can_fire_wand_projectiles",
+		"base_is_projectile",
 	},
 	levels = {
-		[1] = {levelRequirement = 1, statInterpolation = {},  cost = { }, },
-	},
-}
-skills["MeleeGoldStatueLargeMaleSwordSpectre"] = {
-	name = "Default Attack",
-	hidden = true,
-	color = 4,
-	baseEffectiveness = 0,
-	incrementalEffectiveness = 0,
-	description = "Strike your foes down with a powerful blow.",
-	skillTypes = {
-		[SkillType.Attack] = true,
-		[SkillType.RangedAttack] = true,
-		[SkillType.MirageArcherCanUse] = true,
-		[SkillType.Projectile] = true,
-		[SkillType.MeleeSingleTarget] = true,
-		[SkillType.Multistrikeable] = true,
-		[SkillType.Melee] = true,
-		[SkillType.ProjectilesFromUser] = true,
-	},
-	statDescriptionScope = "skill_stat_descriptions",
-	castTime = 1,
-	baseFlags = {
-		attack = true,
-		melee = true,
-		projectile = true,
-	},
-	baseMods = {
-	},
-	qualityStats = {
-	},
-	stats = {
-		"skill_can_fire_arrows",
-		"skill_can_fire_wand_projectiles",
-	},
-	levels = {
-		[1] = {levelRequirement = 1, statInterpolation = {},  cost = { }, },
+		[1] = {levelRequirement = 0, statInterpolation = {},  cost = { }, },
 	},
 }

@@ -6811,7 +6811,7 @@ minions["Metadata/Monsters/Statue/GoldStatueLargeMaleSwordSpectre"] = {
 	accuracy = 1,
 	weaponType1 = "One Hand Sword",
 	skillList = {
-		"MeleeGoldStatueLargeMaleSwordSpectre",
+		"MeleeGoldStatueSpectre",
 	},
 	modList = {
 	},
@@ -6830,7 +6830,7 @@ minions["Metadata/Monsters/Statue/GoldStatueLargeFemaleSwordSpectre"] = {
 	accuracy = 1,
 	weaponType1 = "One Hand Sword",
 	skillList = {
-		"MeleeGoldStatueLargeFemaleSwordSpectre",
+		"MeleeGoldStatueSpectre",
 	},
 	modList = {
 	},
@@ -6848,7 +6848,69 @@ minions["Metadata/Monsters/Statue/GoldStatueLargeFemaleUnarmedSpectre"] = {
 	attackRange = 16,
 	accuracy = 1,
 	skillList = {
-		"MeleeGoldStatueLargeFemaleUnarmedSpectre",
+		"MeleeGoldStatueSpectre",
+	},
+	modList = {
+	},
+}
+-- Auric Champion
+minions["Metadata/Monsters/Statue/GoldStatueLargeMaleSpearSpectre"] = {
+	name = "Auric Champion",
+	life = 3.6,
+	fireResist = 0,
+	coldResist = 0,
+	lightningResist = 0,
+	chaosResist = 0,
+	damage = 1.3,
+	damageSpread = 0.2,
+	attackTime = 1.875,
+	attackRange = 16,
+	accuracy = 1,
+	weaponType1 = "One Hand Sword",
+	skillList = {
+		"MeleeGoldStatueSpectre",
+		"StatueSpearThrowGold",
+	},
+	modList = {
+	},
+}
+minions["Metadata/Monsters/Statue/GoldStatueLargeMaleSpearShieldSpectre"] = {
+	name = "Auric Champion",
+	life = 3.6,
+	fireResist = 0,
+	coldResist = 0,
+	lightningResist = 0,
+	chaosResist = 0,
+	damage = 1.3,
+	damageSpread = 0.2,
+	attackTime = 1.875,
+	attackRange = 16,
+	accuracy = 1,
+	weaponType1 = "One Hand Sword",
+	weaponType2 = "Shield",
+	skillList = {
+		"MeleeGoldStatueSpectre",
+		"StatueSpearThrowGold",
+	},
+	modList = {
+	},
+}
+minions["Metadata/Monsters/Statue/GoldStatueLargeFemaleSpearSpectre"] = {
+	name = "Auric Champion",
+	life = 3.6,
+	fireResist = 0,
+	coldResist = 0,
+	lightningResist = 0,
+	chaosResist = 0,
+	damage = 1.3,
+	damageSpread = 0.2,
+	attackTime = 1.875,
+	attackRange = 16,
+	accuracy = 1,
+	weaponType1 = "One Hand Sword",
+	skillList = {
+		"MeleeGoldStatueSpectre",
+		"StatueSpearThrowGold",
 	},
 	modList = {
 	},

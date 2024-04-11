@@ -435,3 +435,7 @@ local minions, mod, flag = ...
 #spectre Metadata/Monsters/Statue/GoldStatueLargeMaleSwordSpectre
 #spectre Metadata/Monsters/Statue/GoldStatueLargeFemaleSwordSpectre
 #spectre Metadata/Monsters/Statue/GoldStatueLargeFemaleUnarmedSpectre
+-- Auric Champion
+#spectre Metadata/Monsters/Statue/GoldStatueLargeMaleSpearSpectre
+#spectre Metadata/Monsters/Statue/GoldStatueLargeMaleSpearShieldSpectre
+#spectre Metadata/Monsters/Statue/GoldStatueLargeFemaleSpearSpectre
