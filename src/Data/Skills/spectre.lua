@@ -10547,7 +10547,6 @@ skills["AzmeriGolemRotateZap"] = {
 		[1] = { 0.80000001192093, 1.2000000476837, critChance = 5, levelRequirement = 0, statInterpolation = { 3, 3, }, },
 	},
 }
--- Rattling Condemned
 skills["MeleeRattlingCondemned"] = {
 	name = "Default Attack",
 	hidden = true,
@@ -10617,8 +10616,6 @@ skills["CageSpiderCyclone"] = {
 		[1] = {150, -60, levelRequirement = 2, statInterpolation = {},  cost = { }, },
 	},
 }
--- Auric Colossus
--- Auric Champion
 skills["MeleeGoldStatueSpectre"] = {
 	name = "Default Attack",
 	hidden = true,

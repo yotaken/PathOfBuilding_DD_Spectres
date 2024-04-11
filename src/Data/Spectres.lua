@@ -6798,7 +6798,7 @@ minions["Metadata/Monster/CageSpider/CageSpiderSpectre"] = {
 }
 -- Auric Colossus
 minions["Metadata/Monsters/Statue/GoldStatueLargeMaleSwordSpectre"] = {
-	name = "Auric Colossus",
+	name = "Auric Colossus Male Sword",
 	life = 3.6,
 	fireResist = 0,
 	coldResist = 0,
@@ -6817,7 +6817,7 @@ minions["Metadata/Monsters/Statue/GoldStatueLargeMaleSwordSpectre"] = {
 	},
 }
 minions["Metadata/Monsters/Statue/GoldStatueLargeFemaleSwordSpectre"] = {
-	name = "Auric Colossus",
+	name = "Auric Colossus Female Sword",
 	life = 3.6,
 	fireResist = 0,
 	coldResist = 0,
@@ -6836,7 +6836,7 @@ minions["Metadata/Monsters/Statue/GoldStatueLargeFemaleSwordSpectre"] = {
 	},
 }
 minions["Metadata/Monsters/Statue/GoldStatueLargeFemaleUnarmedSpectre"] = {
-	name = "Auric Colossus",
+	name = "Auric Colossus Female Unarmed",
 	life = 3.6,
 	fireResist = 0,
 	coldResist = 0,
@@ -6855,7 +6855,7 @@ minions["Metadata/Monsters/Statue/GoldStatueLargeFemaleUnarmedSpectre"] = {
 }
 -- Auric Champion
 minions["Metadata/Monsters/Statue/GoldStatueLargeMaleSpearSpectre"] = {
-	name = "Auric Champion",
+	name = "Auric Champion Male Spear",
 	life = 3.6,
 	fireResist = 0,
 	coldResist = 0,
@@ -6875,7 +6875,7 @@ minions["Metadata/Monsters/Statue/GoldStatueLargeMaleSpearSpectre"] = {
 	},
 }
 minions["Metadata/Monsters/Statue/GoldStatueLargeMaleSpearShieldSpectre"] = {
-	name = "Auric Champion",
+	name = "Auric Champion Male Spear Shield",
 	life = 3.6,
 	fireResist = 0,
 	coldResist = 0,
@@ -6896,7 +6896,7 @@ minions["Metadata/Monsters/Statue/GoldStatueLargeMaleSpearShieldSpectre"] = {
 	},
 }
 minions["Metadata/Monsters/Statue/GoldStatueLargeFemaleSpearSpectre"] = {
-	name = "Auric Champion",
+	name = "Auric Champion Female Spear",
 	life = 3.6,
 	fireResist = 0,
 	coldResist = 0,
